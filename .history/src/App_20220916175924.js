@@ -35,9 +35,7 @@ class App extends React.Component{
     render(){
       return(
         <div ref={this.parentRef} onClick={this.parentClickFun}>
-          <div ref={this.childRef} onClick={this.childClickFun}>
-            分析事件执行顺序
-          </div>
+          <div ref={this.childRef} onClick={this.childClickFun}></div>
         </div>
       )
     }
